@@ -1,0 +1,11 @@
+prefix=pixi-global/envs/pixi-package
+exec_prefix=pixi-global/envs/pixi-package
+libdir=pixi-global/envs/pixi-package/lib
+includedir=pixi-global/envs/pixi-package/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.41.2
+Cflags: -I${includedir}/uuid
+Libs.private:  -lpthread
+Libs: -L${libdir} -luuid

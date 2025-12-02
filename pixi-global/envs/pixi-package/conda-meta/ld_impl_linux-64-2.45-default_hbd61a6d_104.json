@@ -1,0 +1,54 @@
+{
+  "build": "default_hbd61a6d_104",
+  "build_number": 104,
+  "constrains": [
+    "binutils_impl_linux-64 2.45"
+  ],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "zstd >=1.5.7,<1.6.0a0"
+  ],
+  "license": "GPL-3.0-only",
+  "license_family": "GPL",
+  "md5": "a6abd2796fc332536735f68ba23f7901",
+  "name": "ld_impl_linux-64",
+  "sha256": "9e191baf2426a19507f1d0a17be0fdb7aa155cdf0f61d5a09c808e0a69464312",
+  "size": 725545,
+  "subdir": "linux-64",
+  "timestamp": 1764007826689,
+  "version": "2.45",
+  "fn": "ld_impl_linux-64-2.45-default_hbd61a6d_104.conda",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.45-default_hbd61a6d_104.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/var/home/julian/.cache/rattler/cache/bld/pkgs/ld_impl_linux-64-2.45-default_hbd61a6d_104",
+  "requested_specs": [],
+  "files": [
+    "x86_64-conda-linux-gnu/bin/ld",
+    "bin/x86_64-conda-linux-gnu-ld"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/ld",
+        "path_type": "softlink",
+        "sha256": "ced9e318808de979684070f68f5e4dbfc11ccfb1f699a686891cb0556c6d64be",
+        "sha256_in_prefix": "200559a49e2afbc18f6bd07fb1fb921d332d76a49776a317cd657d7cbf424300",
+        "size_in_bytes": 2917192
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-ld",
+        "path_type": "hardlink",
+        "sha256": "ced9e318808de979684070f68f5e4dbfc11ccfb1f699a686891cb0556c6d64be",
+        "sha256_in_prefix": "7401fd5e7f28c54e117142bf6b1a98ef388dab332f3ddba70575e7985ea1af20",
+        "size_in_bytes": 2917192,
+        "file_mode": "binary",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1764007419791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh"
+      }
+    ]
+  },
+  "link": {
+    "source": "/var/home/julian/.cache/rattler/cache/bld/pkgs/ld_impl_linux-64-2.45-default_hbd61a6d_104",
+    "type": 1
+  }
+}

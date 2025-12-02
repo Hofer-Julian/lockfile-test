@@ -1,0 +1,5 @@
+#!pixi-global/envs/pixi-package/bin/python3.14
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
