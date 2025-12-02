@@ -1,5 +1,0 @@
-version = 1
-
-[envs.pixi-package]
-channels = ["conda-forge"]
-dependencies = { pixi-package = { path = "../../pixi-package" } }
