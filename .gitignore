@@ -1,2 +1,4 @@
 bin
 envs
+.pixi/*
+!.pixi/config.toml
