@@ -2,3 +2,4 @@ bin
 envs
 .pixi/*
 !.pixi/config.toml
+pixi-cache
